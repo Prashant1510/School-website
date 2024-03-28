@@ -1,0 +1,79 @@
+.gradient-background {
+    background: linear-gradient(300deg, #58ebd0, #09befb, #20bcfa);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+.about-img {
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+}
+.upper_images{
+    height: 500px;
+    width: 100%;
+}
+#carousel{
+    margin-bottom: 50px;
+}
+#about{
+    margin-bottom: 50px;
+}
+.director{
+    display:inline-flex;
+}
+#director{
+    margin-bottom: 50px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.about-para{
+    text-align: justify;
+    margin-right: 15px;
+}
+.about-school-img{
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    text-align: center;
+    font-size: 50px;
+}
+@media(max-width: 994px)  {
+    #about{
+        display:block;
+    }
+    h2{
+        display: block;
+        margin-left: 20px;
+       
+    }
+    .about-image{
+        margin-right: 20px;
+    }
+    .about-para{
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .gallery{
+        font-size: 20px;
+    }
+}
+.carousel-item{
+    height: 500px;
+}
+.school-heading-img{
+    border-radius: 10%;
+}
+.html{
+    scroll-behavior: smooth;
+}
+
